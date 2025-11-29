@@ -1,0 +1,24 @@
+请按以下步骤操作：
+
+1. 打开终端，进入frontend目录：
+   cd /Users/haojimmy/Desktop/chongqing-hackthon/frontend
+
+2. 安装依赖（首次运行）：
+   npm install
+
+3. 启动开发服务器：
+   npx expo start
+
+4. 如果没有显示二维码，尝试：
+   npx expo start --tunnel
+
+5. 或者直接在Android模拟器运行：
+   npx expo start --android
+
+6. 或者在浏览器中运行（测试用）：
+   npx expo start --web
+
+注意：
+- 确保手机和电脑在同一WiFi网络
+- 如果使用 --tunnel 选项，需要登录Expo账号
+- 首次启动可能需要较长时间下载依赖
